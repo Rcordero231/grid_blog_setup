@@ -9,9 +9,9 @@ body {
     color: lightcoral ;
 }
 
-.area-border {
+/*.area-border {
     border: 2px solid white;
-}
+}*/
 
 .container{
     min-height: 100vh;
@@ -89,6 +89,32 @@ body {
 
     }
 
-    .posts{
+    .posts {
         grid-area: posts;
+    }
+
+    .post-card {
+        background-color: lightgray;
+        border: lightcoral;
+        border-radius: 25px;
+        padding: 1em;
+    }
+
+    .post-text {
+        margin: 2vh 0;
+    }
+
+    .card-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cardlinks > a {
+        color: lightcoral;
+        text-decoration: none;
+    }
+
+    .cardlinks > a:hover {
+        color: midnightblue;
+        text-decoration: none;
     }
