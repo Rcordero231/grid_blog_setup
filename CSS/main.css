@@ -1,3 +1,9 @@
+/*universal selector - remove any margint the browser has by default*/
+* {
+    margin: 0;
+}
+
+
 body {
     background-color: midnightblue;
     color: lightcoral ;
@@ -23,6 +29,26 @@ body {
 
     .nav  {
         grid-area: nav;
+        background-color: grey;
+        position: sticky;
+        top: 0;
+    }
+
+    .navlinks {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navlinks {
+        color: black;
+        text-decoration: none;
+    }
+
+    .navlinks > a:hover {
+        font-size: large;
+        text-decoration: underline;
     }
 
     .prof-pic {
