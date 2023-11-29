@@ -98,6 +98,7 @@ body {
         border: lightcoral;
         border-radius: 25px;
         padding: 1em;
+        margin-bottom: 3vh;
     }
 
     .post-text {
@@ -109,12 +110,12 @@ body {
         justify-content: space-around;
     }
 
-    .cardlinks > a {
+    .card-links > a {
         color: lightcoral;
         text-decoration: none;
     }
 
-    .cardlinks > a:hover {
+    .card-links > a:hover {
         color: midnightblue;
-        text-decoration: none;
+        text-decoration: underline;
     }
